@@ -1,6 +1,6 @@
 const Router = require("express");
 const User = require("../models/User");
-const UserItems = require("../models/UserItems");
+const UserItems = require("../models/Usertems");
 const Tags = require("../models/Tags");
 const UserCollection = require("../models/UserCollection");
 const bcrypt = require("bcrypt");

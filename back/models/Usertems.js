@@ -1,6 +1,6 @@
 const  {Schema, model} = require("mongoose");
 
-const UserItems = new Schema({
+const Usertems = new Schema({
     email: {type: String, required: true},
     collectionName: {type: String, required: true},
     fieldsLocation: { type: []},
@@ -23,7 +23,7 @@ const UserItems = new Schema({
     cost: { type: Number },
     tags: { type: [] },
 
-    
+
 }],
    
 
@@ -33,4 +33,4 @@ const UserItems = new Schema({
  },)
 
 
- module.exports = model('UserItems', UserItems);
+ module.exports = model('Usertems', Usertems);
