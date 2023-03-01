@@ -22,6 +22,8 @@ const UserItems = new Schema({
     readyToSail: { type: Number },
     cost: { type: Number },
     tags: { type: [] },
+
+    
 }],
    
 
